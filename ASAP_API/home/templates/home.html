@@ -1,0 +1,16 @@
+
+<form action = "" method = "POST">
+    {% csrf_token %}
+    <label for="your_id">Your memberID: </label>
+    <input id="your_id" type="text" name="your_id">
+    <label for="your_firstName">Your first name: </label>
+    <input id="your_firstName" type="text" name="your_firstName">
+    <label for="your_LastName">Your Last name: </label>
+    <input id="your_LastName" type="text" name="your_LastName">
+    <label for="your_DOB">Your date of birth (yyyy/mm/dd): </label>
+    <input id="your_DOB" type="text" name="your_DOB">
+    <label for="your_country">Your country: </label>
+    <input id="your_country" type="text" name="your_country">
+    
+    <input type="submit" value="OK">
+</form>
